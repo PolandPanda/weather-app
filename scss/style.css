@@ -1,1 +1,66 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #292929;
+  font-family: "Poppins", sans-serif;
+}
+
+.weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  color: #292929;
+  width: 360px;
+  max-width: 90%;
+  height: 450px;
+  max-height: 80%;
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.weather__title {
+  text-transform: uppercase;
+  font-size: .7rem;
+  letter-spacing: 2px;
+}
+
+.weather__notification {
+  font-size: 1rem;
+}
+
+.app__location {
+  text-transform: uppercase;
+}
+
+.app__temperature {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
